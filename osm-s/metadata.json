@@ -1,0 +1,14 @@
+{
+"name": "/data/mbtiles/osm-s",
+"description": "/data/mbtiles/osm-s",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "5",
+"center": "5.625000,52.349536,5",
+"bounds": "-180.000000,-85.051117,180.000000,78.246958",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.35.0",
+"generator_options": "tippecanoe '--output-to-directory=/data/mbtiles/osm-s' --no-tile-compression --no-feature-limit --no-tile-size-limit '--drop-rate=1' --force '--minimum-zoom=0' '--maximum-zoom=5'",
+"json": "{\"vector_layers\": [ { \"id\": \"nature\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 5, \"fields\": {\"z_order\": \"Number\"} }, { \"id\": \"road\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 5, \"fields\": {\"z_order\": \"Number\"} } ],\"tilestats\": {\"layerCount\": 2,\"layers\": [{\"layer\": \"nature\",\"count\": 20561249,\"geometry\": \"Polygon\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"z_order\",\"count\": 6,\"type\": \"number\",\"values\": [1,2,4,5,6,7],\"min\": 1,\"max\": 7}]},{\"layer\": \"road\",\"count\": 9184172,\"geometry\": \"LineString\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"z_order\",\"count\": 4,\"type\": \"number\",\"values\": [1,3,5,7],\"min\": 1,\"max\": 7}]}]}}"
+}

@@ -1,0 +1,16 @@
+{
+  "tilejson": "2.2.0",
+  "tiles": ["https://ubukawa.github.io/testDB/un-s/{z}/{x}/{y}.pbf"],
+  "name": "un-s",
+  "attribution": "test",
+  "maxzoom": 4,
+  "minzoom": 0,
+  "bounds": [-180,-60.00,180.00,60.00],
+  "center": [0,0,0],
+  "vector_layers": [{
+    "id": "test",
+    "description": "test",
+    "maxzoom": 4,
+    "minzoom": 0
+  }]
+}
